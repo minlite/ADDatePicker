@@ -12,7 +12,7 @@ public protocol ADDatePickerDelegate {
     func ADDatePicker(didChange date: Date)
 }
 
-open class ADDatePicker: UIView {
+@objcMembers open class ADDatePicker: UIView {
     
     @IBOutlet weak var dateRow: UICollectionView!
     @IBOutlet weak var monthRow: UICollectionView!
