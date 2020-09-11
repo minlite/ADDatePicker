@@ -8,8 +8,8 @@
 
 import UIKit
 
-public protocol ADDatePickerDelegate {
-    func ADDatePicker(didChange date: Date)
+@objc public protocol ADDatePickerDelegate {
+    @objc func ADDatePicker(didChange date: Date)
 }
 
 @objcMembers open class ADDatePicker: UIView {
